@@ -1,3 +1,3 @@
-class Header extends React {
+class Header extends React.Component {
 
 }
