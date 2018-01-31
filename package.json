@@ -5,11 +5,13 @@
   "license": "MIT",
   "dependencies": {
     "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1"
+    "babel-preset-react": "^6.24.1",
+    "jslint": "^0.11.0"
   },
   "devDependencies": {
-    "eslint": "^4.15.0",
-    "eslint-plugin-react": "^7.5.1"
+    "eslint": "^4.16.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-plugin-react": "^7.6.1"
   },
   "repository": "git@github.com:rbatsenko/react-indecision-app.git",
   "author": "rbatsenko <rbatsenko@gmail.com>"
