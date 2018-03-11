@@ -5,37 +5,24 @@
   "license": "MIT",
   "scripts": {
     "serve": "live-server public/",
-    "build": "webpack --watch",
-    "build-babel": "babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch"
+    "build": "webpack",
+    "dev-server": "webpack-dev-server"
   },
   "dependencies": {
     "babel": "^6.23.0",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.6.1",
     "babel-preset-react": "^6.24.1",
-    "jslint": "^0.11.0",
     "live-server": "^1.2.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "validator": "^9.4.1",
     "webpack": "^4.1.1",
-    "webpack-cli": "^2.0.11"
-  },
-  "devDependencies": {
-    "babel-eslint": "^8.2.1",
-    "eslint": "4.9.0",
-    "eslint-config-airbnb": "16.1.0",
-    "eslint-config-google": "^0.9.1",
-    "eslint-config-standard": "^11.0.0-beta.0",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-jsx-a11y": "6.0.2",
-    "eslint-plugin-node": "^5.2.1",
-    "eslint-plugin-promise": "^3.6.0",
-    "eslint-plugin-react": "7.4.0",
-    "eslint-plugin-standard": "^3.0.1",
-    "prettier-eslint": "^8.8.1"
+    "webpack-cli": "^2.0.11",
+    "webpack-dev-server": "^3.1.1"
   },
   "repository": "git@github.com:rbatsenko/react-indecision-app.git",
   "author": "rbatsenko <rbatsenko@gmail.com>"
