@@ -38,9 +38,9 @@ export default class IndecisionApp extends React.Component {
 
     handleAddOption = (option) => {
         if (!option) {
-            return 'ERROR';
+            return 'Enter valid value to add item';
         } else if (this.state.options.indexOf(option) > -1) {
-            return 'ERROR ALREADY';
+            return 'The item is already on the list';
         }
 
         this.setState( (prevState) => ({ options: prevState.options.concat(option) }));
